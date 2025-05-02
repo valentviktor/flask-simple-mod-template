@@ -1,0 +1,9 @@
+Flask
+Flask-Login
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-WTF
+python-dotenv
+werkzeug
+pymysql==1.1.1
+pytz
