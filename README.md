@@ -23,8 +23,6 @@ project_root/
 ├── logs/                   # Folder logging app
 ├── static/                 
 │   ├── css/                # Folder static assets css
-│   ├── js/                 # Folder static assets css
-│   ├── images/             # Folder static assets css
 │   └── ...
 ├── templates/              
 │   ├── layouts/            # Folder layout html
