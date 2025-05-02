@@ -1,6 +1,6 @@
 # Flask Simple Mod Template
 
-Sebuah template simple flask yang awalnya ditujukan pembuatan website penelitian IoT dengan kebutuhan pengkodean algoritma dalam bahasa Python. 
+Template yang sengaja dirancang untuk pengembangan website penelitian IoT dengan kebutuhan pengkodean algoritma menggunakan bahasa pemrograman Python. 
 
 Default template dashboard menggunakan <a href="https://zuramai.github.io/mazer/" target="_blank">Mazer</a>
 
