@@ -91,9 +91,8 @@ DB_DATABASE=flask_mod_iot
 ### 5. Inisialisasi Database
 
 ```bash
-flask db init
-flask db migrate -m "Initial migration"
-flask db upgrade
+flask init-db
+flask seed
 ```
 
 ### 6. Jalankan Aplikasi
