@@ -9,6 +9,7 @@ from app.providers.routes import register_routes
 from app.models.user import User
 from app.helpers import env
 from datetime import datetime
+from app.cli import db_init, db_seed
 
 def create_app():
     base_dir = os.path.abspath(os.path.dirname(__file__))
@@ -30,6 +31,8 @@ def create_app():
 
         CSRFProtect(app)
 
+        app.cli.add_command(db_init)
+        app.cli.add_command(db_seed)
         db.init_app(app)
         migrate.init_app(app, db)
         login_manager.init_app(app)

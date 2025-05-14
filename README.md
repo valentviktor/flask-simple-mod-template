@@ -94,6 +94,11 @@ DB_DATABASE=flask_mod_iot
 flask init-db
 flask seed
 ```
+Jika menggunakan windows
+```bash
+flask init_db #windows
+flask seed_db #windows
+```
 
 ### 6. Jalankan Aplikasi
 
